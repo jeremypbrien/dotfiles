@@ -1,0 +1,11 @@
+#!/bin/bash
+
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+
+cp ~/.vimrc $DIR
+cp ~/.xinitrc $DIR
+cp ~/.bashrc $DIR
+cp ~/.bash_profile $DIR
+cp ~/.Xresources $DIR
+cp ~/.config/i3/config $DIR/.config/i3/config
+cp ~/.config/i3status/config $DIR/.config/i3status/config
