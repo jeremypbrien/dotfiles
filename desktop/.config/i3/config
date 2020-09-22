@@ -173,7 +173,7 @@ smart_gaps on
 smart_borders on
 
 # Compton
-exec --no-startup-id "compton -b"
+exec --no-startup-id "picom -b -i 1"
 
 # Redshift
 exec --no-startup-id /usr/lib/geoclue-2.0/demos/agent
@@ -186,6 +186,9 @@ exec --no-startup-id "feh --bg-scale /home/jeremy/Pictures/background/space.jpg"
 bindsym $mod+Mod1+f "exec firefox"
 bindsym $mod+Mod1+s "exec spotify"
 bindsym $mod+Mod1+d "exec discord"
+bindsym $mod+Mod1+l "exec libreoffice"
+bindsym $mod+Mod1+o "exec okular"
+
 
 # Specific workspace binding
 assign [class="(?i)Firefox"] $WS1
